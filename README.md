@@ -8,7 +8,7 @@ The starter repo for the tutorial on refactoring AWS Lambda infrastructure into 
 
 - ✅ Have a better understanding of the AWS Lambda terraform module we are using in the context of this project
 
-<img src="https://www.jerrychang.ca/images/webhook-lambda-infrastructure.png" alt="AWS lambda functions setup" style="width:100%">
+<img src="https://www.jerrychang.ca/images/aws-lambda-terraform-module-visualization.png" alt="AWS lambda functions setup" style="width:100%">
 
 ## Interested in going through this tutorial ?
 
