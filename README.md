@@ -10,6 +10,22 @@ The starter repo for the tutorial on refactoring AWS Lambda infrastructure into 
 
 <img src="https://www.jerrychang.ca/images/aws-lambda-terraform-module-visualization.png" alt="AWS lambda functions setup" style="width:100%">
 
+## Getting started 
+
+You have to run ` pnpm run generate-assets -r` to output the `main.zip`.
+
+#### Upon generating the main.zip, run the terraform setup: 
+
+```sh
+export AWS_ACCESS_KEY_ID=<your-key>
+export AWS_SECRET_ACCESS_KEY=<your-secret>
+export AWS_DEFAULT_REGION=us-east-1
+
+terraform init
+terraform plan
+terraform apply -auto-approve
+```
+
 ## Interested in going through this tutorial ?
 
 <img src="https://www.jerrychang.ca/images/og-image-tf-modules-refactor.png" alt="Simplify your AWS Lambda infrastructure in 9 steps" style="width:100%">
